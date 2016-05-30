@@ -1,3 +1,9 @@
+# MacOS Finder files
+.DS_Store
+
+# Project-specific files
+/**/checkpoints
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

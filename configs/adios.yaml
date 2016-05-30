@@ -1,0 +1,51 @@
+# Deep-Simple-Shallow
+-   name: DSS
+    H:
+        dim:            [1024]
+        batch_norm:     [null, {mode: 1}]
+        dropout:        [0.3, 0.5]
+    Y0:
+        batch_norm:     [null, {mode: 1}]
+
+# Deep-Simple-Deep
+-   name: DSD
+    H:
+        dim:            [1024]
+        batch_norm:     [null, {mode: 1}]
+        dropout:        [0.3, 0.5]
+    H1:
+        dim:            [1024]
+        batch_norm:     [null, {mode: 1}]
+        dropout:        [0.3, 0.5]
+    Y0:
+        batch_norm:     [null, {mode: 1}]
+
+# Deep-Composite-Shallow
+-   name: DCS
+    H:
+        dim:            [1024]
+        batch_norm:     [null, {mode: 1}]
+        dropout:        [0.3, 0.5]
+    H0:
+        dim:            [512]
+        batch_norm:     [null, {mode: 1}]
+        dropout:        [0.3, 0.5]
+    Y0:
+        batch_norm:     [null, {mode: 1}]
+
+# Deep-Composite-Deep
+-   name: DCD
+    H:
+        dim:            [1024]
+        batch_norm:     [null, {mode: 1}]
+        dropout:        [0.3, 0.5]
+    H0:
+        dim:            [512]
+        batch_norm:     [null, {mode: 1}]
+        dropout:        [0.3, 0.5]
+    H1:
+        dim:            [1024]
+        batch_norm:     [null, {mode: 1}]
+        dropout:        [0.3, 0.5]
+    Y0:
+        batch_norm:     [null, {mode: 1}]

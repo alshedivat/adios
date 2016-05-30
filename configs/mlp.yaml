@@ -1,0 +1,20 @@
+# 0-Hidden-Layer
+-   name: 0HL
+
+# 1-Hidden-Layer
+-   name: 1HL
+    H:
+        dim:            [512, 1024]
+        batch_norm:     [null, {mode: 1}]
+        dropout:        [0.3, 0.5]
+
+# 2-Hidden-Layers
+-   name: 2HL
+    H:
+        dim:            [512, 1024]
+        batch_norm:     [null, {mode: 1}]
+        dropout:        [0.3, 0.5]
+    H1:
+        dim:            [512, 1024]
+        batch_norm:     [null, {mode: 1}]
+        dropout:        [0.3, 0.5]
