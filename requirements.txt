@@ -1,0 +1,6 @@
+argparse
+keras>=1.0
+numpy>=1.5
+pyyaml
+scikit-learn>=0.15
+Theano>=0.7

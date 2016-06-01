@@ -16,5 +16,6 @@ setup(
     url='https://github.com/alshedivat/adios',
     download_url='https://github.com/alshedivat/adios/archive/master.zip',
     dependency_links=['git+http://github.com/Theano/Theano.git#egg=Theano'],
-    install_requires=['numpy>=1.5','pyyaml','argparse','keras>=1.0','Theano'],
+    install_requires=['argparse','keras>=1.0','numpy>=1.5','pyyaml',
+                      'scikit-learn>=0.15','Theano'],
 )
