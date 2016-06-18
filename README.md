@@ -48,6 +48,7 @@ If you use this code (in full or in part) for academic purposes, please cite our
   title={ADIOS: Architectures Deep In Output Space},
   author={Cisse, Moustapha and Al-Shedivat, Maruan and Bengio, Samy},
   booktitle={Proceedings of The 33rd International Conference on Machine Learning},
+  pages={2770-–2779},
   year={2016}
 }
 ```
