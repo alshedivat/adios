@@ -4,6 +4,10 @@ The way the dataset was preprocessed is described in the paper.
 
 Download the original data from:
 http://participants-area.bioasq.org/
+
+Preprocessed features and labels can be downloaded from the following links:
+features (2.3 GB): https://yadi.sk/d/WvwBSg963E8sMq
+labels (31 MB): https://yadi.sk/d/zfKrkoDn3E8sDw
 """
 import os
 import gzip
