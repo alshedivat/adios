@@ -39,9 +39,12 @@ $ python setup.py develop [--user]
 
 The `--user` flag (optional) will install the package for a given user only.
 
+### Other implementations
 
-### Citation policy
-If you use this code (in full or in part) for academic purposes, please cite our paper:
+- [ADIOS implementation](https://github.com/y3nk0/Multi-label-with-Deep-Learning) by [y3nk0](https://github.com/y3nk0).
+
+
+### Citation
 
 ```bibtex
 @inproceedings{cisse2016adios,
@@ -57,4 +60,4 @@ If you use this code (in full or in part) for academic purposes, please cite our
 
 MIT (for details, please refer to [LICENSE](https://github.com/alshedivat/adios/blob/master/LICENSE))
 
-Copyright (c) 2016 Moustapha Cisse, Maruan Al-Shedivat, Samy Bengio
+Copyright (c) 2016-2018 Moustapha Cisse, Maruan Al-Shedivat, Samy Bengio
